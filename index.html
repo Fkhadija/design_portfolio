@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khadija fouganni Design Portfolio</title>
+    <!-- Include Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Creative Portfolio</h1>
+        <p>A collection of my digital designs, nature sketches, and creative projects.</p>
+    </header>
+
+    <main class="gallery-container">
+        <!-- Add your images here -->
+        <div class="gallery-item">
+            <img src="assets/FRESH (2).png" alt="Web UI Design concept" onclick="openLightbox(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="assets/FRESH (3).png" alt="Graphite nature drawing" onclick="openLightbox(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="assets/FRESH (5).png" alt="Crochet bag pattern design" onclick="openLightbox(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="assets/FRESH (4).png" alt="Crochet bag pattern design" onclick="openLightbox(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="assets/1.png" alt="Bilingual digital kiosk interface" onclick="openLightbox(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="assets/2.png" alt="Bilingual digital kiosk interface" onclick="openLightbox(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="assets/3.png" alt="Bilingual digital kiosk interface" onclick="openLightbox(this)">
+        </div>
+        <div class="gallery-item">
+            <img src="assets/4.png" alt="Bilingual digital kiosk interface" onclick="openLightbox(this)">
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
